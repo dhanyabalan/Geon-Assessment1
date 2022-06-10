@@ -1,0 +1,210 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+}
+.carousel-inner > .carousel-item {
+    position: relative;
+    max-height: 600px;
+    
+}
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translateY(-40%);
+    transform: translateX(-50%);
+}
+
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+    transition: transform 2.4s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2.6s;
+  }
+
+#card-style{
+    margin-bottom: 50%;
+    color:white;
+    font: 38.05px;
+    margin: 330px 0px 8px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
+#gimage{
+    margin-left: 40px;
+    width: 150.3px;
+    height: 49.73px;
+}
+
+#navbar{
+    margin-left: 20px;
+}
+.carousal-caption{
+    
+    /* right: 0px ;
+    left:0px;
+    text-align: none;
+    margin-left: 10px; */
+    position: absolute;
+    top:-40px
+
+}
+
+#caption{
+    color: orangered;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.banner-caption{
+    color: #fff;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+
+.more-btn {
+    position: relative;
+    padding-right: 35px;
+}
+.rounded-0 {
+    border-radius: 0 !important;
+}
+.btn-outline-orange {
+    color: #F46325;
+    border-color: #F46325;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #F46325;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 3px solid;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.btn:hover{
+    background-color: #F46325;
+    border-color: #F46325;
+    color:white
+}
+
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    display:none;
+}
+
+.gtoggle:hover{
+color:#F46325;
+
+}
+.contact-us{
+    border: 2px solid #F46325;
+    background-color: #F46325;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .3s ease-out;
+}
+#contact-us{
+    margin-left: 180px;
+}
+.contact-us:hover{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+.gitem{
+    color: #2E4A5A ;
+}
+.gitem:hover{
+    color: white ;
+    background-color: #F46325;
+    /* border-color: blue; */
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+#slide-img{
+    width: 196px;
+    transition-duration: 1ms;
+    opacity: 1;
+   
+}
+
+
+#gcarousal-indicators  {
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    /* background-color:#2E4A5A ; */
+    transform: translateY(-150%);
+   
+}
+.carousel .carousel-indicators button {background-color: black;}
+.carousel .carousel-indicators button.active {background-color:#F46325;}
+#p{
+    
+   margin:56px 0px 0px 55px;
+}
+.scroll-down{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.scroll-down-text {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    font-size: 14px;
+}
+
+.scroll-down-bar {
+    animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
+    background: #fff;
+    bottom: 0;
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 3px;
+}
+
